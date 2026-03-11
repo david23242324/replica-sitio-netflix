@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <DavidMartinez />
-      <NetflixFooter/>
       <MatiasRamirez />
+      <NetflixFooter/>
     </>
   )
 }
