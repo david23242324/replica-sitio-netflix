@@ -2,7 +2,7 @@ import './App.css'
 import NavBar from './DavidSarmiento'
 import Principal from './Principal'
 import DavidMartinez from './DavidMartinez'
-import NetflixFooter from './FooterNetflix'
+import NetflixFooter from './footerNetflix'
 import MatiasRamirez from './MatiasRamirez'
 import AndresSoler from './AndresSoler'
 
