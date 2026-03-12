@@ -56,12 +56,14 @@
 }
 
 .boton-beneficios{
-    background: linear-gradient(to bottom, #10103d, #2a1444,#331644, #411146, #4b1129);
+    background-color: red;
     color: white;
     border: none;
     padding: 12px 25px;
     border-radius: 30px;
     font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
     cursor: pointer;
     margin-bottom: 40px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
@@ -69,8 +71,8 @@
 }
 
 .boton-beneficios:hover{
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    background-color: rgb(226, 13, 13);
+    transition: 0.2s;
 }
 
 .boton-beneficios:active{

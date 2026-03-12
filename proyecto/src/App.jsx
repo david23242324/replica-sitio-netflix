@@ -1,22 +1,23 @@
-import { useState } from 'react'
 import './App.css'
+import NavBar from './DavidSarmiento'
 import Principal from './Principal'
 import DavidMartinez from './DavidMartinez'
-import NetflixFooter from './footerNetflix'
+import NetflixFooter from './FooterNetflix'
 import MatiasRamirez from './MatiasRamirez'
-import Tendencias from './AndresSoler'
+import AndresSoler from './AndresSoler'
 
 function App() {
   return (
     <>
-      <header className = "cabecera">
-      {/* en esta linea va la navbar, debe tener position:absolute asi la imagen no se mueve hacia abajo o otros lados*/}
-      <Principal />
+      <header className="cabecera">
+        {/* Aquí va la navbar, con position:absolute para que no mueva la imagen */}
+        <NavBar />
+        <Principal />
       </header>
-      <Tendencias />
       <DavidMartinez />
       <MatiasRamirez />
-      <NetflixFooter/>
+      <AndresSoler />
+      <NetflixFooter />
     </>
   )
 }
