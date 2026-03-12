@@ -14,9 +14,9 @@ function App() {
         <NavBar />
         <Principal />
       </header>
+      <AndresSoler />
       <DavidMartinez />
       <MatiasRamirez />
-      <AndresSoler />
       <NetflixFooter />
     </>
   )
